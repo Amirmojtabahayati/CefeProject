@@ -719,7 +719,7 @@
                 </a>
                 
                 <div class="admin-menu">
-                    <a href="panel.html" class="menu-btn">
+                    <a href="panel.php" class="menu-btn">
                         <i class="fas fa-cogs"></i>
                         پنل مدیریت
                     </a>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Jan 06, 2026 at 01:36 PM
+-- Generation Time: Jan 07, 2026 at 04:55 PM
 -- Server version: 5.7.36
 -- PHP Version: 8.0.13
 
@@ -32,7 +32,6 @@ CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(11) NOT NULL,
   `name` varchar(25) COLLATE utf8mb4_persian_ci NOT NULL,
   `indexing` int(11) NOT NULL,
-  `status` enum('active','inactive','future') COLLATE utf8mb4_persian_ci NOT NULL,
   `description` varchar(255) COLLATE utf8mb4_persian_ci DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
